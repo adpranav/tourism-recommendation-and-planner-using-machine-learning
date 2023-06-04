@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled map</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>VMRDA INS Kursura Submarine Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3300952,17.7172461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramakrishna Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3236579,17.7141618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Simhachalam</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.2358316,17.7711568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARAKU VALLEY</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            82.880227,18.3219505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lambasingi</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            82.4921961,17.818596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dolphin's Nose Lighthouse]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.2925877,17.676469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yarada Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.26923,17.6549368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rushikonda Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3851154,17.7825201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TTD, Rushikonda,vizag</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3787883,17.7782821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bheemili Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.455852,17.8902533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Veera Venkata Sathyanarayana Swamy Vari Devasthanam Annavaram</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            82.4019359,17.2832205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Durga Malleswara Swamy Varla Devasthanam</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            80.605864,16.5154055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kondapalli Fort</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            80.5306487,16.6254258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhavani Island</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            80.5730084,16.523107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Undavalli Caves</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            80.5821896,16.4971412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prakasam Barrage</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            80.6051522,16.5074062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Borra Caves</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.0396992,18.2806929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moghalrajpuram Caves</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            80.6467593,16.506229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

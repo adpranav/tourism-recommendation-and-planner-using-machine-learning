@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vizag</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Sampath Vinayaka Temple Road</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3127136,17.7245502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Varahalakshmi Narasimha Swamy Vari Devasthanam</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.2505322,17.7663525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramakrishna Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3236579,17.7141618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rushikonda Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3851154,17.7825201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bheemili Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.455852,17.8902533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kailasagiri</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3418016,17.7492105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sagar Nagar Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3604059,17.7617995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Y S R View Point -I love vizag</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3538029,17.7563824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Venkateswara Swamy Devalayam, TTD</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3771589,17.778897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rama Naidu Studios</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3974719,17.8092114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VMRDA INS Kursura Submarine Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3300952,17.7172461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TU 142 Aircraft Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3298606,17.717986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Harrier Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3282646,17.7172001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indira Gandhi Zoological Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3441899,17.7688115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dolphin's Nose Lighthouse]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.2925877,17.676469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yarada Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.26923,17.6549368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victory At Sea War Memorial</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3322376,17.7186785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tenneti Park Beach</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3505528,17.7476576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thotlakonda Ancient Buddhist Site</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.4091744,17.8285111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mudasarlova park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.2991482,17.7629382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALL INDIA TOURIST PLACES INFORMER</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.3066745,17.7228928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bojjanna Konda & Ligala konda at sankaram]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.0160011,17.7103165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Devipuram</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.0830523,17.7653782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kondakarla Ava</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.0008333,17.605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nookambika Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.0108402,17.6809494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Kanaka Maha Lakshmi Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            83.2972108,17.6996722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
