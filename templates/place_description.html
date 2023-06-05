@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tourist Listing Website - Place Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            border-top: 10px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .description-container {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .place-heading {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .place-description {
+            font-size: 16px;
+        }
+
+        .similar-places {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .similar-heading {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .similar-place {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+            width: 200px;
+            height: 220px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .place-image {
+            width: 150px;
+            height: 150px;
+            background-color: #f0f0f0;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .place-name {
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 5px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .place-name a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .place-name a:hover {
+            color: #e60000;
+        }
+
+        .place-name a:focus {
+            outline: none;
+            color: #e60000;
+        }
+
+        .place-name a:active {
+            color: #990000;
+        }
+
+        .plus-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 30px;
+            background-color: #e60000;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .plus-button:hover {
+            transform: scale(1.2);
+        }
+
+        .dialog-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+        }
+
+        .message {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .dialog-box .ok-button {
+            background-color: #e60000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .dialog-box .ok-button:hover {
+            background-color: #990000;
+        }
+
+        .dialog-box .ok-button:focus {
+            outline: none;
+        }
+
+        .dialog-box .ok-button:active {
+            background-color: #550000;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const plusButtons = document.querySelectorAll('.plus-button');
+            plusButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const similarPlace = button.dataset.place;
+                    addToDatabase(similarPlace);
+                });
+            });
+
+            function addToDatabase(similarPlace) {
+                const form = document.createElement('form');
+                form.action = '/result';
+                form.method = 'POST';
+
+                const placeInput = document.createElement('input');
+                placeInput.type = 'hidden';
+                placeInput.name = 'place';
+                placeInput.value = similarPlace;
+
+                form.appendChild(placeInput);
+
+                document.body.appendChild(form);
+
+                form.submit();
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Tourist Listing Website</h1>
+    </div>
+
+    <div class="description-container">
+        <h2 class="place-heading">{{ place }}</h2>
+        <div class="place-description">
+            {{ description }}
+        </div>
+    </div>
+
+    <div class="similar-places">
+        <h2 class="similar-heading">Similar Places</h2>
+        {% for similar_place in similar_places %}
+        <div class="similar-place">
+            <div class="place-image" style="background-image: url('/static/images/{{ similar_place }}.jpg');"></div>
+
+            <div class="place-name">
+                <a href="/place-description/{{ similar_place }}">{{ similar_place }}</a>
+            </div>
+            <div class="plus-button" data-place="{{ similar_place }}">+</div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 20px; display: flex; justify-content: center;">
+        <form action="/result" method="POST">
+            <input type="hidden" name="place" value="{{ place }}">
+            <button type="submit" style="padding: 10px 20px; font-size: 16px; background-color: #e60000; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Add to Itinerary</button>
+        </form>
+    </div>
+</body>
+</html>
