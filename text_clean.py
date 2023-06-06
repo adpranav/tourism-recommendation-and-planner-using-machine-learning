@@ -7,7 +7,7 @@ for i in range(42):
     
     
     
-    def sentence_tokenize(arr):               ## passing array of paragraphs ( paragraphs in turn contain many sentences)
+    def sentence_tokenize(ar):               ## passing array of paragraphs ( paragraphs in turn contain many sentences)
         final=[]
         for i in range(len(arr)):
             a=sent_tokenize(arr[i])
