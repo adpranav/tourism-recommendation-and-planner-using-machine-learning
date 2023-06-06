@@ -7,7 +7,7 @@ for i in range(42):
     
     
     
-    def sentence_tokenize(ar):               ## passing array of paragraphs ( paragraphs in turn contain many sentences)
+    def sentence_tokenize(arr):               ## passing array of paragraphs ( paragraphs in turn contain many sentences)
         final=[]
         for i in range(len(arr)):
             a=sent_tokenize(arr[i])
@@ -23,8 +23,8 @@ for i in range(42):
         word_list=[]
         for i in range(len(arr)):
             words=word_tokenize(arr[i].lower())
-            for i in words:
-                word_list.append(i)
+            for i in words: 
+                word_list.append(i) 
         return word_list
 
     words1=words_tokenizer(sentences1)
@@ -57,5 +57,5 @@ for i in range(42):
     
     
     
-    final_compile.append(sentence1)
+    final_compile.append(sentence)
     
